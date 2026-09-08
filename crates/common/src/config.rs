@@ -6,9 +6,17 @@ pub struct Settings {
     pub server: ServerSettings,
 }
 
-#[derive(Debug, Deserialize)]
+#[derive(Deserialize)]
 pub struct DatabaseSettings {
     pub url: String,
+}
+
+impl std::fmt::Debug for DatabaseSettings {
+    fn fmt(&self, f: &mut std::fmt::Formatter<'_>) -> std::fmt::Result {
+        f.debug_struct("DatabaseSettings")
+            .field("url", &"<redacted>")
+            .finish()
+    }
 }
 
 #[derive(Debug, Deserialize)]
@@ -35,5 +43,20 @@ impl Settings {
             )
             .build()?
             .try_deserialize()
+    }
+}
+
+#[cfg(test)]
+mod tests {
+    use super::*;
+
+    #[test]
+    fn database_url_is_redacted_in_debug() {
+        let db = DatabaseSettings {
+            url: "postgres://user:secret@host:5432/db".to_owned(),
+        };
+        let rendered = format!("{db:?}");
+        assert!(rendered.contains("<redacted>"));
+        assert!(!rendered.contains("secret"));
     }
 }
