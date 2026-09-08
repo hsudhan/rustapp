@@ -19,6 +19,7 @@ sqlx = { version = "0.8", default-features = false, features = [
     "postgres",
     "chrono",
     "bigdecimal",
+    "derive",
 ] }
 thiserror = "2"
 tokio = { version = "1", features = ["macros", "rt-multi-thread", "signal", "net"] }
