@@ -3,7 +3,10 @@ use serde::Serialize;
 use sqlx::FromRow;
 
 #[derive(Debug, Clone, Copy, Serialize, sqlx::Type)]
-#[sqlx(type_name = "employment_status_enum", rename_all = "SCREAMING_SNAKE_CASE")]
+#[sqlx(
+    type_name = "employment_status_enum",
+    rename_all = "SCREAMING_SNAKE_CASE"
+)]
 #[serde(rename_all = "SCREAMING_SNAKE_CASE")]
 pub enum EmploymentStatus {
     Employed,

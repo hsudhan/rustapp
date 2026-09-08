@@ -11,7 +11,10 @@ pub enum PartyType {
 }
 
 #[derive(Debug, Clone, Copy, Serialize, sqlx::Type)]
-#[sqlx(type_name = "customer_segment_enum", rename_all = "SCREAMING_SNAKE_CASE")]
+#[sqlx(
+    type_name = "customer_segment_enum",
+    rename_all = "SCREAMING_SNAKE_CASE"
+)]
 #[serde(rename_all = "SCREAMING_SNAKE_CASE")]
 pub enum CustomerSegment {
     Retail,
@@ -22,7 +25,10 @@ pub enum CustomerSegment {
 }
 
 #[derive(Debug, Clone, Copy, Serialize, sqlx::Type)]
-#[sqlx(type_name = "customer_status_enum", rename_all = "SCREAMING_SNAKE_CASE")]
+#[sqlx(
+    type_name = "customer_status_enum",
+    rename_all = "SCREAMING_SNAKE_CASE"
+)]
 #[serde(rename_all = "SCREAMING_SNAKE_CASE")]
 pub enum CustomerStatus {
     Pending,
