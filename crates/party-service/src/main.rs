@@ -20,7 +20,12 @@ async fn main() -> anyhow::Result<()> {
 }
 
 async fn shutdown_signal() {
-    if tokio::signal::ctrl_c().await.is_ok() {
-        tracing::info!("shutdown signal received, draining connections");
+    use tokio::signal::unix::{SignalKind, signal};
+
+    let mut sigterm = signal(SignalKind::terminate()).expect("failed to install SIGTERM handler");
+    tokio::select! {
+        _ = tokio::signal::ctrl_c() => {},
+        _ = sigterm.recv() => {},
     }
+    tracing::info!("shutdown signal received, draining connections");
 }
