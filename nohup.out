@@ -1,0 +1,152 @@
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.51s
+     Running `target/debug/customer-employment-service`
+{"timestamp":"2026-09-10T13:31:19.901903Z","level":"INFO","fields":{"message":"telemetry initialized","service":"customer-employment-service"},"target":"common::telemetry"}
+{"timestamp":"2026-09-10T13:31:19.919064Z","level":"INFO","fields":{"message":"listening","addr":"0.0.0.0:3007"},"target":"customer_employment_service"}
+{"timestamp":"2026-09-10T13:32:26.387426Z","level":"INFO","fields":{"message":"shutdown signal received, draining connections"},"target":"customer_employment_service"}
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.36s
+     Running `target/debug/customer-address-service`
+{"timestamp":"2026-09-10T18:21:57.017327Z","level":"INFO","fields":{"message":"telemetry initialized","service":"customer-address-service"},"target":"common::telemetry"}
+{"timestamp":"2026-09-10T18:21:57.027718Z","level":"INFO","fields":{"message":"listening","addr":"0.0.0.0:3004"},"target":"customer_address_service"}
+{"timestamp":"2026-09-10T18:23:16.688830Z","level":"INFO","fields":{"message":"shutdown signal received, draining connections"},"target":"customer_address_service"}
+    Blocking    Blocking    Blocking waiting for file lock on package cache
+ waiting for file lock on package cache
+ waiting for file lock on package cache
+    Blocking    Blocking    Blocking waiting for file lock on package cache
+ waiting for file lock on package cache
+ waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on build directory
+    Blocking waiting for file lock on build directory
+    Blocking waiting for file lock on build directory
+    Blocking waiting for file lock on build directory
+    Blocking waiting for file lock on build directory
+    Blocking    Blocking waiting for file lock on build directory
+ waiting for file lock on build directory
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.88s
+     Running `target/debug/party-service`
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.92s
+     Running `target/debug/customer-kyc-service`
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.96s
+     Running `target/debug/corporate-profile-service`
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.99s
+     Running `target/debug/customer-address-service`
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1.03s
+     Running `target/debug/individual-profile-service`
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1.06s
+     Running `target/debug/customer-identification-service`
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1.13s
+     Running `target/debug/customer-employment-service`
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1.17s
+     Running `target/debug/customer-contact-service`
+{"timestamp":"2026-09-10T18:27:50.804204Z","level":"INFO","fields":{"message":"telemetry initialized","service":"party-service"},"target":"common::telemetry"}
+Error: missing configuration field "database"
+{"timestamp":"2026-09-10T18:27:51.350969Z","level":"INFO","fields":{"message":"telemetry initialized","service":"customer-kyc-service"},"target":"common::telemetry"}
+Error: missing configuration field "database"
+{"timestamp":"2026-09-10T18:27:51.874772Z","level":"INFO","fields":{"message":"telemetry initialized","service":"corporate-profile-service"},"target":"common::telemetry"}
+Error: missing configuration field "database"
+{"timestamp":"2026-09-10T18:27:52.409634Z","level":"INFO","fields":{"message":"telemetry initialized","service":"customer-address-service"},"target":"common::telemetry"}
+Error: missing configuration field "database"
+{"timestamp":"2026-09-10T18:27:52.925531Z","level":"INFO","fields":{"message":"telemetry initialized","service":"individual-profile-service"},"target":"common::telemetry"}
+Error: missing configuration field "database"
+{"timestamp":"2026-09-10T18:27:53.440915Z","level":"INFO","fields":{"message":"telemetry initialized","service":"customer-identification-service"},"target":"common::telemetry"}
+Error: missing configuration field "database"
+{"timestamp":"2026-09-10T18:27:53.957692Z","level":"INFO","fields":{"message":"telemetry initialized","service":"customer-employment-service"},"target":"common::telemetry"}
+Error: missing configuration field "database"
+{"timestamp":"2026-09-10T18:27:54.492167Z","level":"INFO","fields":{"message":"telemetry initialized","service":"customer-contact-service"},"target":"common::telemetry"}
+Error: missing configuration field "database"
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.40s
+     Running `target/debug/party-service`
+{"timestamp":"2026-09-10T18:28:54.411870Z","level":"INFO","fields":{"message":"telemetry initialized","service":"party-service"},"target":"common::telemetry"}
+Error: missing configuration field "database"
+    Blocking    Blocking waiting for file lock on package cache
+ waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on package cache
+    Blocking waiting for file lock on build directory
+    Blocking waiting for file lock on build directory
+    Blocking    Blocking waiting for file lock on build directory
+ waiting for file lock on build directory
+    Blocking waiting for file lock on build directory
+    Blocking waiting for file lock on build directory
+    Blocking waiting for file lock on build directory
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.86s
+     Running `target/debug/corporate-profile-service`
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.90s
+     Running `target/debug/customer-employment-service`
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.94s
+     Running `target/debug/customer-contact-service`
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 0.98s
+     Running `target/debug/customer-identification-service`
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1.01s
+     Running `target/debug/customer-kyc-service`
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1.17s
+     Running `target/debug/customer-address-service`
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1.21s
+     Running `target/debug/individual-profile-service`
+    Finished `dev` profile [unoptimized + debuginfo] target(s) in 1.24s
+     Running `target/debug/party-service`
+{"timestamp":"2026-09-10T18:30:13.406098Z","level":"INFO","fields":{"message":"telemetry initialized","service":"corporate-profile-service"},"target":"common::telemetry"}
+{"timestamp":"2026-09-10T18:30:13.582427Z","level":"INFO","fields":{"message":"listening","addr":"0.0.0.0:3003"},"target":"corporate_profile_service"}
+{"timestamp":"2026-09-10T18:30:13.952280Z","level":"INFO","fields":{"message":"telemetry initialized","service":"customer-employment-service"},"target":"common::telemetry"}
+{"timestamp":"2026-09-10T18:30:13.961964Z","level":"INFO","fields":{"message":"listening","addr":"0.0.0.0:3007"},"target":"customer_employment_service"}
+{"timestamp":"2026-09-10T18:30:14.459764Z","level":"INFO","fields":{"message":"telemetry initialized","service":"customer-contact-service"},"target":"common::telemetry"}
+{"timestamp":"2026-09-10T18:30:14.467249Z","level":"INFO","fields":{"message":"listening","addr":"0.0.0.0:3005"},"target":"customer_contact_service"}
+{"timestamp":"2026-09-10T18:30:14.954837Z","level":"INFO","fields":{"message":"telemetry initialized","service":"customer-identification-service"},"target":"common::telemetry"}
+{"timestamp":"2026-09-10T18:30:14.961944Z","level":"INFO","fields":{"message":"listening","addr":"0.0.0.0:3006"},"target":"customer_identification_service"}
+{"timestamp":"2026-09-10T18:30:15.465699Z","level":"INFO","fields":{"message":"telemetry initialized","service":"customer-kyc-service"},"target":"common::telemetry"}
+{"timestamp":"2026-09-10T18:30:15.473770Z","level":"INFO","fields":{"message":"listening","addr":"0.0.0.0:3008"},"target":"customer_kyc_service"}
+{"timestamp":"2026-09-10T18:30:15.963465Z","level":"INFO","fields":{"message":"telemetry initialized","service":"customer-address-service"},"target":"common::telemetry"}
+{"timestamp":"2026-09-10T18:30:15.971463Z","level":"INFO","fields":{"message":"listening","addr":"0.0.0.0:3004"},"target":"customer_address_service"}
+{"timestamp":"2026-09-10T18:30:16.454920Z","level":"INFO","fields":{"message":"telemetry initialized","service":"individual-profile-service"},"target":"common::telemetry"}
+{"timestamp":"2026-09-10T18:30:16.462045Z","level":"INFO","fields":{"message":"listening","addr":"0.0.0.0:3002"},"target":"individual_profile_service"}
+{"timestamp":"2026-09-10T18:30:16.961134Z","level":"INFO","fields":{"message":"telemetry initialized","service":"party-service"},"target":"common::telemetry"}
+{"timestamp":"2026-09-10T18:30:16.973128Z","level":"INFO","fields":{"message":"listening","addr":"0.0.0.0:3001"},"target":"party_service"}
